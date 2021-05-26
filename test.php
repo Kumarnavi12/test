@@ -40,7 +40,7 @@ foreach(headers_list() as $header) {
     echo $header."<br>";
 }
 */
-/*$url="http://mailjoe.com/Honda/test.php";
+$url="http://mailjoe.com/Honda/test.php";
 $curl=curl_init();
 curl_setopt_array($curl, array(
     CURLOPT_URL=>$url,
@@ -65,7 +65,8 @@ foreach ($data->children() as $records) {
     }
     echo $photos."<br>";
 }
-*/
+/*
 $url="https://images10.gaadicdn.com/usedcar_image/original/replace_img_6092277ec0607_1620191102.png<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_409433889.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_822690766.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_334191858.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_235993195.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_695728474.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_938579941.jpg<NextPhoto>https://images10.gaadicdn.com/usedcar_image/original/img_401";
 echo $url;
+*/
 ?>
